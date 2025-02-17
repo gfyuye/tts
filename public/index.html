@@ -191,7 +191,7 @@
       let button = document.getElementById('previewButton');
       button.disabled = true;
       let ctx = new AudioContext();
-      fetch('/api/ra', {
+      fetch('/api/ra.js', {
         method: 'post',
         headers: headers,
         body: ssml
